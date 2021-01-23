@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: inline-grid;
+}
+.container {
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 25% 100px auto;
+  margin: auto;
+}
+.column {
+    display: inline-grid;
+    max-width: 30vw;
+    margin: 2vw;
+}
+#pending {
+  grid-column-start: 1;
+}
+#progress {
+    grid-column-start: 2;
+}
